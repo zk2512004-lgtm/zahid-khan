@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zahid Iqbal | Front-End Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(58, 123, 213, 0.6)),
+        url('https://images.unsplash.com/photo-1521790361066-9f03b1c8c3df?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      height: 85vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero .container {
+      z-index: 2;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: auto;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+
+    .btn-primary {
+      background-color: #ff6b6b;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #ff4757;
+    }
+
+    /* Section padding */
+    section {
+      padding: 60px 20px;
+    }
+
+    .bg-light-blue {
+      background-color: #e3f2fd;
+    }
+
+    .bg-pink {
+      background-color: #ffe3e3;
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      color: #333;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .testimonial {
+      font-style: italic;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Zahid Iqbal</h1>
+      <p class="mb-4">Creative Front-End Developer | Web Solutions for Modern Business</p>
+      <a href="#contact" class="btn btn-primary btn-lg">Let's Work Together</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="text-center bg-light-blue">
+    <div class="container">
+      <h2 class="mb-5 text-primary">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="C:\Users\Axiom\Downloads\website.jpg" class="card-img-top" alt="Web Development">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Custom responsive websites using modern front-end technologies like HTML5, CSS3, JavaScript, and Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="C:\Users\Axiom\Downloads\ux ui.jpg" class="card-img-top" alt="UI/UX Design">
+            <div class="card-body">
+              <h5 class="card-title">UI/UX Design</h5>
+              <p class="card-text">Clean, user-centered interface designs that focus on usability, accessibility, and brand identity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="C:\Users\Axiom\Downloads\seo.jpg" class="card-img-top" alt="SEO & Marketing">
+            <div class="card-body">
+              <h5 class="card-title">SEO & Digital Marketing</h5>
+              <p class="card-text">Improve your visibility with SEO-friendly designs, content strategies, and digital campaigns.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="text-center bg-pink">
+    <div class="container">
+      <h2 class="mb-4 text-danger">About Zahid Iqbal</h2>
+      <p class="lead text-dark">
+        I am a front-end developer based in Pakistan with a passion for clean UI, responsive layouts, and interactive experiences. Whether you're a startup, freelancer, or business, I build tailored solutions that meet your needs and goals.
+      </p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="container text-center">
+    <h2 class="mb-5 text-success">What Clients Say</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <blockquote class="testimonial">
+          "Zahid delivered more than what we expected! Our site is fast, responsive, and looks amazing."
+          <footer class="blockquote-footer mt-2">— Sarah Ali, Creative Director</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6 mb-4">
+        <blockquote class="testimonial">
+          "Reliable and talented. Zahid is now our go-to front-end developer for all projects."
+          <footer class="blockquote-footer mt-2">— Ali Raza, CEO, PixelTech</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light-blue text-center">
+    <div class="container">
+      <h2 class="mb-4 text-primary">Contact Zahid</h2>
+      <p class="mb-3">Have a project or idea? Let’s connect and bring it to life.</p>
+      <p>
+        📧 Email: <a href="mailto:zk2512004@gmail.com">zk2512004@gmail.com</a><br>
+        📱 WhatsApp: <a href="https://wa.me/923279480680">+92 327 9480680</a>
+      </p>
+      <a href="mailto:zk2512004@gmail.com" class="btn btn-primary mt-3">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Zahid Iqbal. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
